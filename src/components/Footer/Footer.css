@@ -1,0 +1,65 @@
+/* Footer container */
+#footer {
+  background-color: var(--background-color);
+  border-radius: var(--border-radius);
+  
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius:var(--border-radius);
+  
+  margin:0;
+  padding:0;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-left:-10px;
+  padding-left:6px;
+}
+
+/* List styling */
+#footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Link styling */
+#footer ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+#footer ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+#footer ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Add general styles for the footer here */
+
+.footer-list {
+  list-style-type: none;
+  padding: 0;
+  margin:0;
+}
+
+.ul{
+margin:0;
+margin-bottom: 9px;
+padding:0;
+}
+
+.li {
+margin:0;
+padding:0;
+}
+
+
+/* Add styles for list items if needed */
+.list-item {
+  /* Add styles for list items here */
+  margin:0;
+  padding:0;
+}
