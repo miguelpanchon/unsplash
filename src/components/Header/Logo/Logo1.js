@@ -2,8 +2,8 @@ import './Logo1.css';
 export function paintLogo1() {
     console.log("entra en paintLogo1");
     const logoElement = document.createElement("img");
-    logoElement.src = "../../../../public/Unsplash.jpg";
-    logoElement.alt = "unsplash logo";
+    logoElement.src = "../../../../public/unsplash.jpg";
+    logoElement.alt = "unsplash logo...";
     logoElement.className = "Logo1";
 
     const clickHandler = (event) => {

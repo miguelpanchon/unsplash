@@ -7,7 +7,7 @@ export function paintLogo2() {
     console.log("entra en paintLogo2");
 
     const logoElement = document.createElement("img");
-    logoElement.src = "../../../../public/MP_logo.jpg";
+    logoElement.src = "../../../../public/mp_logo.jpg";
     logoElement.alt = "logo MP";
     logoElement.className = "Logo2";
 
